@@ -20,10 +20,23 @@
             float:inherit;
             width:auto;
         }
+        div.galleryImage img {
+            text-align: center;
+        }
         div.galleryImage:hover {
             border:2px solid;
         }
         div.describ {
             padding:20px;
-            text-align: left;
+            text-align: center;
+        }
+        div {
+            width: 200%;
+            background-color: lightgrey;
+            width: auto;
+            border: 20px solid green;
+            padding: auto;
+            margin: auto;
+            color:black;
+            font-size:15px;
         }
