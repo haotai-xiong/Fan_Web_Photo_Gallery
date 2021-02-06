@@ -13,6 +13,7 @@
         }
         body {
             background-image: url("img/Plini-Impulse-Voices-Art.jpg");
+            text-align: center;
         }
         div.galleryImage {
             margin: 10px;
