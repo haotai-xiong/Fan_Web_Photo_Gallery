@@ -1,48 +1,47 @@
-        ul {
-            list-style-type: none;
-            margin:auto;
-            padding-left: 0;
-            float:left;
-            position: fixed;
-            overflow: hidden;
-            top:120px;
-        }
-        li a {
-            display: inline-block;
-            padding: 15px;
-            color:black;
-            background-color: lightcyan;
-        }
-        body {
-            background-image: url("img/Plini-Impulse-Voices-Art.jpg");
-        }
-        div {
-            width: auto;
-            background-color: lightgrey;
-            border: 20px solid green;
-            padding: auto;
-            margin: auto;
-            color:black;
-            font-size:15px;
-        }
-        div.galleryImage {
-            margin: 10px;
-            border: 1px solid;
-            float:inherit;
-            width:auto;
-        }
-        div.galleryImage img {
-            text-align: center;
-        }
-        div.galleryImage:hover {
-            border:2px solid;
-        }
-        div.describ {
-            padding:20px;
-            text-align: center;
-        }
-        .audio {
-            float: right;
-            position:fixed;
-        }
+ul {
+    list-style-type: none;
+    margin:auto;
+    padding-left: 0;
+    float:left;
+    position: fixed;
+    overflow: hidden;
+    top:120px;
+}
+li a {
+    display: inline-block;
+    padding: 15px;
+    color:black;
+    background-color: lightcyan;
+}
+body {
+    background-image: url("img/Plini-Impulse-Voices-Art.jpg");
+}
+div {
+    background-color: lightgrey;
+    border: 20px solid green;
+    padding: auto;
+    margin: auto;
+    color:black;
+    font-size:15px;
+}
+div.galleryImage {
+    margin: 10px;
+    border: 1px solid;
+    width: 70%;
+}
+div.galleryImage img {
+    text-align: center;
+    width: 70%;
+}
+div.galleryImage:hover {
+    border:2px solid;
+}
+div.describ {
+    padding:20px;
+    text-align: center;
+}
+.audio {
+    float: right;
+    position:fixed;
+}
         
