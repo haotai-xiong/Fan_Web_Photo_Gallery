@@ -23,15 +23,16 @@ div {
     margin: auto;
     color:black;
     font-size:15px;
+    text-align: center;
 }
 div.galleryImage {
     margin: 10px;
     border: 1px solid;
-    width: 70%;
+    width: 50%;
 }
 div.galleryImage img {
     text-align: center;
-    width: 70%;
+    width: 50%;
 }
 div.galleryImage:hover {
     border:2px solid;
