@@ -1,24 +1,24 @@
         ul {
-            list-style:none;
-            margin:0;
+            list-style-type: none;
+            margin:auto;
             padding-left: 0;
-            text-align: center;
+            float:left;
+            position: fixed;
+            overflow: hidden;
+            top:120px;
         }
-        li {
+        li a {
             display: inline-block;
             padding: 15px;
             color:black;
             background-color: lightcyan;
-            text-align: center;
         }
         body {
             background-image: url("img/Plini-Impulse-Voices-Art.jpg");
-            text-align: center;
         }
         div {
-            width: 200%;
-            background-color: lightgrey;
             width: auto;
+            background-color: lightgrey;
             border: 20px solid green;
             padding: auto;
             margin: auto;
@@ -40,5 +40,9 @@
         div.describ {
             padding:20px;
             text-align: center;
+        }
+        .audio {
+            float: right;
+            position:fixed;
         }
         
