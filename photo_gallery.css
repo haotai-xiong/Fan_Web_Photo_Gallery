@@ -16,7 +16,7 @@ li a {
 body {
     background-image: url("img/Plini-Impulse-Voices-Art.jpg");
 }
-div {
+.galleryImage {
     background-color: lightgrey;
     border: 20px solid green;
     padding: auto;
@@ -28,18 +28,16 @@ div {
 div.galleryImage {
     margin: 10px;
     border: 1px solid;
-    width: 50%;
+    width: 30%;
 }
 div.galleryImage img {
-    text-align: center;
-    width: 50%;
+    width: 30%;
 }
 div.galleryImage:hover {
     border:2px solid;
 }
 div.describ {
     padding:20px;
-    text-align: center;
 }
 .audio {
     float: right;
