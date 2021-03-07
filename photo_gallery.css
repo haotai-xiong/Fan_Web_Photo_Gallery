@@ -1,3 +1,12 @@
+h1 {
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    width: auto;
+    text-shadow: 2px 2px 20px blueviolet;
+    font-size: 3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 ul {
     list-style-type: none;
     margin:auto;
@@ -35,13 +44,4 @@ div.describ {
 .audio {
     float: right;
     position:fixed;
-}
-h1 {
-    text-align: center;
-    color:whitesmoke;
-    background-color: black;
-    width: auto;
-    text-shadow: 2px 2px 20px blueviolet;
-    font-size: 3em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
