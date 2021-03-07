@@ -1,7 +1,8 @@
 h1 {
     text-align: center;
-    color:whitesmoke;
     background-color: black;
+    color:whitesmoke;
+    
     width: auto;
     text-shadow: 2px 2px 20px blueviolet;
     font-size: 3em;
